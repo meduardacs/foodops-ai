@@ -1,0 +1,372 @@
+[
+  {
+    "id": "vendas-01",
+    "question": "Quanto faturamos nos últimos sete dias?",
+    "expected_tools": [
+      "get_sales_summary"
+    ]
+  },
+  {
+    "id": "vendas-02",
+    "question": "Qual foi o ticket médio da última semana?",
+    "expected_tools": [
+      "get_sales_summary"
+    ]
+  },
+  {
+    "id": "vendas-03",
+    "question": "Qual o resultado de vendas desta semana?",
+    "expected_tools": [
+      "get_sales_summary"
+    ]
+  },
+  {
+    "id": "vendas-04",
+    "question": "Quantos pedidos tivemos e qual a receita?",
+    "expected_tools": [
+      "get_sales_summary"
+    ]
+  },
+  {
+    "id": "vendas-05",
+    "question": "Mostre o balanço das vendas nos últimos 30 dias?",
+    "expected_tools": [
+      "get_sales_summary"
+    ]
+  },
+  {
+    "id": "produtos-01",
+    "question": "Quais foram os itens mais vendidos nesta semana?",
+    "expected_tools": [
+      "get_top_products"
+    ]
+  },
+  {
+    "id": "produtos-02",
+    "question": "Mostre o ranking dos produtos mais populares.",
+    "expected_tools": [
+      "get_top_products"
+    ]
+  },
+  {
+    "id": "produtos-03",
+    "question": "Quais os cinco produtos campeões de venda?",
+    "expected_tools": [
+      "get_top_products"
+    ]
+  },
+  {
+    "id": "produtos-04",
+    "question": "Qual foi o produto mais pedido nos últimos 7 dias?",
+    "expected_tools": [
+      "get_top_products"
+    ]
+  },
+  {
+    "id": "produtos-05",
+    "question": "Liste os produtos mais vendidos na quinzena.",
+    "expected_tools": [
+      "get_top_products"
+    ]
+  },
+  {
+    "id": "previsao-01",
+    "question": "Quanto devo preparar amanhã?",
+    "expected_tools": [
+      "get_demand_forecast"
+    ]
+  },
+  {
+    "id": "previsao-02",
+    "question": "Qual é a previsão para amanhã?",
+    "expected_tools": [
+      "get_demand_forecast"
+    ]
+  },
+  {
+    "id": "previsao-03",
+    "question": "Como está a demanda estimada para o próximo dia?",
+    "expected_tools": [
+      "get_demand_forecast"
+    ]
+  },
+  {
+    "id": "previsao-04",
+    "question": "Mostre a previsão de consumo dos próximos sete dias.",
+    "expected_tools": [
+      "get_demand_forecast"
+    ]
+  },
+  {
+    "id": "previsao-05",
+    "question": "Quantas unidades devo produzir amanhã?",
+    "expected_tools": [
+      "get_demand_forecast"
+    ]
+  },
+  {
+    "id": "documentos-01",
+    "question": "O que diz o manual sobre armazenamento?",
+    "expected_tools": [
+      "search_knowledge"
+    ]
+  },
+  {
+    "id": "documentos-02",
+    "question": "Como devo reduzir o desperdício no restaurante?",
+    "expected_tools": [
+      "search_knowledge"
+    ]
+  },
+  {
+    "id": "documentos-03",
+    "question": "Quais as orientações de validade?",
+    "expected_tools": [
+      "search_knowledge"
+    ]
+  },
+  {
+    "id": "documentos-04",
+    "question": "Como funciona o procedimento de atendimento?",
+    "expected_tools": [
+      "search_knowledge"
+    ]
+  },
+  {
+    "id": "documentos-05",
+    "question": "Consulte o cardápio e os ingredientes.",
+    "expected_tools": [
+      "search_knowledge"
+    ]
+  },
+  {
+    "id": "vendas_e_top-01",
+    "question": "Qual o faturamento e quais os produtos mais vendidos?",
+    "expected_tools": [
+      "get_sales_summary",
+      "get_top_products"
+    ]
+  },
+  {
+    "id": "vendas_e_top-02",
+    "question": "Quanto vendemos e qual o ranking dos itens?",
+    "expected_tools": [
+      "get_sales_summary",
+      "get_top_products"
+    ]
+  },
+  {
+    "id": "vendas_e_top-03",
+    "question": "Compare receita e produtos mais pedidos nesta semana.",
+    "expected_tools": [
+      "get_sales_summary",
+      "get_top_products"
+    ]
+  },
+  {
+    "id": "vendas_e_top-04",
+    "question": "Mostre ticket médio e os produtos campeões.",
+    "expected_tools": [
+      "get_sales_summary",
+      "get_top_products"
+    ]
+  },
+  {
+    "id": "vendas_e_top-05",
+    "question": "Quantos pedidos tivemos e quais os itens populares?",
+    "expected_tools": [
+      "get_sales_summary",
+      "get_top_products"
+    ]
+  },
+  {
+    "id": "previsao_e_top-01",
+    "question": "Quais itens mais vendidos e quanto preparar amanhã?",
+    "expected_tools": [
+      "get_top_products",
+      "get_demand_forecast"
+    ]
+  },
+  {
+    "id": "previsao_e_top-02",
+    "question": "Quero o ranking dos produtos e a previsão para amanhã.",
+    "expected_tools": [
+      "get_top_products",
+      "get_demand_forecast"
+    ]
+  },
+  {
+    "id": "previsao_e_top-03",
+    "question": "Quais os produtos populares e qual a demanda futura?",
+    "expected_tools": [
+      "get_top_products",
+      "get_demand_forecast"
+    ]
+  },
+  {
+    "id": "previsao_e_top-04",
+    "question": "Identifique os itens campeões e indique quanto produzir amanhã.",
+    "expected_tools": [
+      "get_top_products",
+      "get_demand_forecast"
+    ]
+  },
+  {
+    "id": "previsao_e_top-05",
+    "question": "Produtos mais pedidos e previsão dos próximos dias.",
+    "expected_tools": [
+      "get_top_products",
+      "get_demand_forecast"
+    ]
+  },
+  {
+    "id": "previsao_e_vendas-01",
+    "question": "Quanto faturamos na semana e qual a previsão para amanhã?",
+    "expected_tools": [
+      "get_sales_summary",
+      "get_demand_forecast"
+    ]
+  },
+  {
+    "id": "previsao_e_vendas-02",
+    "question": "Mostre vendas e demanda para amanhã.",
+    "expected_tools": [
+      "get_sales_summary",
+      "get_demand_forecast"
+    ]
+  },
+  {
+    "id": "previsao_e_vendas-03",
+    "question": "Quero ticket médio e quanto produzir amanhã.",
+    "expected_tools": [
+      "get_sales_summary",
+      "get_demand_forecast"
+    ]
+  },
+  {
+    "id": "previsao_e_vendas-04",
+    "question": "Qual foi a receita e qual a previsão para amanhã?",
+    "expected_tools": [
+      "get_sales_summary",
+      "get_demand_forecast"
+    ]
+  },
+  {
+    "id": "previsao_e_vendas-05",
+    "question": "Quantos pedidos tivemos na semana e quanto devo preparar amanhã?",
+    "expected_tools": [
+      "get_sales_summary",
+      "get_demand_forecast"
+    ]
+  },
+  {
+    "id": "procedimento_e_previsao-01",
+    "question": "Qual o procedimento para preparar a demanda de amanhã?",
+    "expected_tools": [
+      "get_demand_forecast",
+      "search_knowledge"
+    ]
+  },
+  {
+    "id": "procedimento_e_previsao-02",
+    "question": "Consulte o manual e a previsão de amanhã.",
+    "expected_tools": [
+      "get_demand_forecast",
+      "search_knowledge"
+    ]
+  },
+  {
+    "id": "procedimento_e_previsao-03",
+    "question": "Como evitar desperdício com a previsão de demanda?",
+    "expected_tools": [
+      "get_demand_forecast",
+      "search_knowledge"
+    ]
+  },
+  {
+    "id": "procedimento_e_previsao-04",
+    "question": "Quais orientações de estoque devo usar com a previsão?",
+    "expected_tools": [
+      "get_demand_forecast",
+      "search_knowledge"
+    ]
+  },
+  {
+    "id": "procedimento_e_previsao-05",
+    "question": "Qual a previsão para amanhã e como armazenar ingredientes?",
+    "expected_tools": [
+      "get_demand_forecast",
+      "search_knowledge"
+    ]
+  },
+  {
+    "id": "recentes-01",
+    "question": "Mostre os pedidos recentes.",
+    "expected_tools": [
+      "get_recent_orders"
+    ]
+  },
+  {
+    "id": "recentes-02",
+    "question": "Quais foram os últimos pedidos?",
+    "expected_tools": [
+      "get_recent_orders"
+    ]
+  },
+  {
+    "id": "recentes-03",
+    "question": "Liste os últimos pedidos registrados.",
+    "expected_tools": [
+      "get_recent_orders"
+    ]
+  },
+  {
+    "id": "recentes-04",
+    "question": "Quero ver pedidos recentes da operação.",
+    "expected_tools": [
+      "get_recent_orders"
+    ]
+  },
+  {
+    "id": "recentes-05",
+    "question": "Quais são os últimos pedidos concluídos?",
+    "expected_tools": [
+      "get_recent_orders"
+    ]
+  },
+  {
+    "id": "serie-01",
+    "question": "Mostre a evolução do faturamento por dia.",
+    "expected_tools": [
+      "get_sales_timeseries"
+    ]
+  },
+  {
+    "id": "serie-02",
+    "question": "Qual a tendência do movimento dia a dia?",
+    "expected_tools": [
+      "get_sales_timeseries"
+    ]
+  },
+  {
+    "id": "serie-03",
+    "question": "Preciso do gráfico histórico de faturamento.",
+    "expected_tools": [
+      "get_sales_timeseries"
+    ]
+  },
+  {
+    "id": "serie-04",
+    "question": "Mostre o histórico de faturamento diário.",
+    "expected_tools": [
+      "get_sales_timeseries"
+    ]
+  },
+  {
+    "id": "serie-05",
+    "question": "Como foi a evolução dos pedidos por dia?",
+    "expected_tools": [
+      "get_sales_timeseries"
+    ]
+  }
+]
